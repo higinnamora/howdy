@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/IMG_0534.png);
+    background-repeat: no-repeat;
+    background-color: gray;
+    overflow: hidden;
+}
+label {
+    display: block;
+}
+h2, h3 {
+    margin: 0;
+}
+.container {
+    width: 50vw;
+    display: grid;
+    height: 600px;
+}
+.container-p {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main-icon img {
+    padding: 50px;
+}
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+}
+.main-title h1 {
+    font-size: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.main-title p {
+    font-size: 18px;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+.main-title span {
+    color: #EF295E;
+    text-decoration: underline;
+}
+
+.login-container {
+    background-color: #707070d1;
+    margin: 30px 30px;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+.login h2 { 
+    margin: 0;
+    font-size: 32px;
+    padding: 20px;
+}
+.login h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.login h4 {
+    font-size: 20px;
+}
+.login-button {
+    margin-bottom: 5px;
+}
+.login-button button {
+    width: 50%;
+    height: 38px;
+    border-radius: 5px;
+    background-color:#EF295E;
+    border: none;
+    margin-bottom: 5px;
+}
+.login-button button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-bottom: 5px;
+}
